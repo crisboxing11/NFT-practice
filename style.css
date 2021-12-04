@@ -22,16 +22,36 @@ body {
   font-size: 18px;
   background-color: var(--Very-dark-blue-bgr);
 }
+h2 {
+  font-weight: 600;
+  color: var(--White);
+}
+
+p {
+  font-weight: 400;
+  color: var(--Soft-blue)
+}
 
 img {
   max-width: 100%;
 }
 
+span {
+  color: var(--White)
+}
+
 .container {
  background-color: var(--Very-dark-blue-card);
  margin: 3rem 2.5rem
-
-
 }
+
+.price {
+  color: var(--Cyan)
+}
+
+.time {
+  color: var(--Soft-blue)
+}
+
 
 
