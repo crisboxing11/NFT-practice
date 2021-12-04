@@ -21,7 +21,7 @@ body {
   font-family: 'Outfit', sans-serif;
   font-size: 18px;
   background-color: var(--bgr);
-  padding:5rem
+  padding:1.25rem
 }
 
 h2 {
@@ -41,6 +41,7 @@ ul {
 
 img {
   max-width: 100%;
+  border-radius: 0.5rem
 }
 
 span {
@@ -102,7 +103,7 @@ span {
 
 
 .credit {
-  font-size: 12px;
+  font-size: 16px;
   color: var(--Soft-blue);
   text-align: center;
 }
@@ -111,4 +112,10 @@ span {
 }
 
 
+@media(min-width: 500px) {
+ .container {
+   width: 450px;
+   margin: 0 auto 1rem;
+ } 
 
+}
