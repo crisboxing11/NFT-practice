@@ -30,6 +30,12 @@ h2 {
   margin: 1rem 0.5rem 0.5rem 0
 }
 
+h2:hover {
+  color: var(--Cyan);
+  cursor: pointer;
+  transition: ease-in 0.4s
+}
+
 p {
   font-weight: 400;
   color: var(--Soft-blue)
@@ -39,15 +45,36 @@ ul {
   list-style-type: none;
 }
 
+.container .active {
+  position: absolute;
+  background-color: var(--Cyan);
+  width: 410px;
+  height: 410px;
+  top: 40px;
+  z-index: 999;
+  border-radius:0.5rem;
+  opacity: 0.6
+}
+
 img {
   max-width: 100%;
   border-radius: 0.5rem
 }
 
+
+
 span {
   color: var(--White);
-  font-weight: 400
+  font-weight: 400;
 }
+
+span:hover {
+  color: var(--Cyan);
+  cursor: pointer;
+  transition: ease-out 0.4s
+}
+
+
 
 .container {
  background-color: var(--card);
@@ -98,10 +125,6 @@ span {
   color: var(--Soft-blue)
 }
 
-
-
-
-
 .credit {
   font-size: 16px;
   color: var(--Soft-blue);
@@ -110,7 +133,6 @@ span {
 .credit a {
   color: hsl (228, 45%, 44%)
 }
-
 
 @media(min-width: 500px) {
  .container {
