@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,11 +11,23 @@
 --Soft-blue: hsl(215, 51%, 70%);
 --Cyan: hsl(178, 100%, 50%);
 /* Neutral Colors */
---Very-dark-blue: hsl(217, 54%, 11%);
---Very-dark-blue: hsl(216, 50%, 16%);
---Very-dark-blue: hsl(215, 32%, 27%);
+--Very-dark-blue-bgr: hsl(217, 54%, 11%);
+--Very-dark-blue-card: hsl(216, 50%, 16%);
+--Very-dark-blue-line: hsl(215, 32%, 27%);
 --White: hsl(0, 0%, 100%);
 }
 
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  background-color: var(--Very-dark-blue-bgr);
+}
+
+.container {
+ background-color: var(--Very-dark-blue-card);
+ margin: 20px
+
+
+}
 
 
