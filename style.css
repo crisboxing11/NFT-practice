@@ -23,9 +23,13 @@ body {
   background-color: var(--Very-dark-blue-bgr);
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
  background-color: var(--Very-dark-blue-card);
- margin: 20px
+ margin: 3rem 2.5rem
 
 
 }
